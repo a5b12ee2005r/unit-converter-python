@@ -16,7 +16,7 @@
 #   print("Fahrenheit:", f)
 
 
-choice = input("Enter C to convert Celsius to Fahrenheit or F to convert Fahrenheit to Celsius: ").lower()
+choice = input("Enter C to convert Celsius to Fahrenheit or F to convert Fahrenheit to Celsius: ").lower()cls
 
 if choice == "c":
     celsius = float(input("Enter temperature in Celsius: "))
