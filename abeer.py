@@ -354,58 +354,58 @@
 
 
 
-import math
-# square root
-print(math.sqrt(81))
-print(math.sqrt(25))
-# power
-print(math.pow(2,4))
-print(math.pow(5,5))
-# pi
-print(math.pi)
-# area
-# area=pi*r^2
-radius=6
-print(math.pi*6**2)
+# import math
+# # square root
+# print(math.sqrt(81))
+# print(math.sqrt(25))
+# # power
+# print(math.pow(2,4))
+# print(math.pow(5,5))
+# # pi
+# print(math.pi)
+# # area
+# # area=pi*r^2
+# radius=6
+# print(math.pi*6**2)
 
-# random
-import random
-dice=random.randint(1,6)
-print(dice)
-otp=random.randint(1000,9999)
-print(otp)
-# random choice
-a=["ali","faizan","salman"]
-print(random.choice(a))
+# # random
+# import random
+# dice=random.randint(1,6)
+# print(dice)
+# otp=random.randint(1000,9999)
+# print(otp)
+# # random choice
+# a=["ali","faizan","salman"]
+# print(random.choice(a))
 
-# date time
-from datetime import datetime
-print(datetime.now())
-# date
-from datetime import date
-print(date.today())
-# sleep
-# import time
-# print("start")
-# time.sleep(4)
-# print("finish")
+# # date time
+# from datetime import datetime
+# print(datetime.now())
+# # date
+# from datetime import date
+# print(date.today())
+# # sleep
+# # import time
+# # print("start")
+# # time.sleep(4)
+# # print("finish")
 
-import csv
-file=open("practice.csv","r")
-data=csv.reader(file)
-for row in data:
-    print(row)
+# import csv
+# file=open("practice.csv","r")
+# data=csv.reader(file)
+# for row in data:
+#     print(row)
 
-file.close()
-# applying filter
-import csv
-file=open("practice.csv","r")
-data=csv.reader(file)
-for row in data:
-    if "B" in row[1] and "f_50-99" in row[3]:
-        print(row)
+# file.close()
+# # applying filter
+# import csv
+# file=open("practice.csv","r")
+# data=csv.reader(file)
+# for row in data:
+#     if "B" in row[1] and "f_50-99" in row[3]:
+#         print(row)
 
-file.close()
+# file.close()
 
 
 
